@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+.main {
+    background-image: url("assests/images/bg2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 90vh;
+    position: relative;
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    height: 75px;
+
+}
+
+nav img {
+    width: 158px;
+    position: relative;
+    z-index: 10;
+    top: 7px;
+}
+
+.button1 {
+    position: relative;
+    z-index: 10;
+    background-color: #e50914;
+    border: 2px solid #e50914;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.main-content {
+    color: white;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    height: calc(100% - 75px);
+    margin: auto;
+    padding: 0px 24px;
+
+}
+
+.main-content> :first-child {
+    font-weight: 900;
+    font-size: 47px;
+    text-align: center;
+}
+
+.main-content> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main-content> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.select {
+    position: relative;
+    z-index: 10;
+    color: white;
+    background-color: rgba(19, 18, 18, 0.4);
+    border: 1px solid white;
+    padding: 7px 23px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login {
+    display: flex;
+    gap: 7px;
+    margin-top: 16px;
+}
+
+.textbox {
+    position: relative;
+    z-index: 10;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgb(86, 86, 86);
+    padding: 24px 16px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.button2 {
+    position: relative;
+    z-index: 10;
+    background-color: #e50914;
+    border: 2px solid #e50914;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.separate {
+    height: 8px;
+    background-color: #353434;
+}
+
+.sec1 {
+    display: flex;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    height: 580px;
+
+}
+
+.left {
+    width: 52%;
+}
+
+.sec1-img {
+    position: relative;
+    width: 48%;
+}
+
+.big {
+    font-size: 48px;
+}
+
+.small {
+    font-size: 20px;
+}
+
+.sec1-img img {
+    width: 98%;
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+
+.sec1-img video {
+    position: absolute;
+    margin-left: 0px;
+    width: 397px;
+    top: 66px;
+    right: 52px;
+}
+
+.sec2-img {
+    position: relative;
+    width: 50%;
+}
+
+.sec2-img img {
+    width: 98%;
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+
+.sec2-img video {
+    position: absolute;
+    margin-left: 0px;
+    width: 323px;
+    top: 35px;
+    right: 115px;
+}
+
+.faq {
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    height: 814px;
+}
+
+.faq-heading {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 16px;
+}
+
+.faq-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 20px;
+    margin: 0px 0px 9px;
+}
+
+.faq-text {
+    font-size: 23px;
+}
+
+.faq-login {
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    text-align: center;
+    margin: 45px 0px;
+}
+
+.sub-login-faq {
+    display: flex;
+    gap: 7px;
+    margin: 0px auto;
+}
+
+.footer{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+
+.f-text {
+    color: white;
+    padding: 10px;
+}
+
+.f-text a {
+    color: white;
+}
+
+.foot-main{
+    margin-top: 50px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-list-container li a{
+    color: white;
+
+}
+
+.main-list-container li {
+    padding: 10px;
+}

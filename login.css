@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("assests/images/bg-new.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* .main {
+    
+    background-size: max(1200px, 100vw);
+    height: 900px;
+    position: relative;
+} */
+
+.box {
+    height: 900px;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    height: 75px;
+
+}
+
+nav img {
+    width: 158px;
+    position: relative;
+    z-index: 10;
+    top: 7px;
+}
+
+.form {
+    width: 29%;
+    margin: 30px auto;
+    color: white;
+    z-index: 10;
+    position: relative;
+    background: rgba(0, 0, 0, 0.58);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 20px 56px;
+    font-size: 23px;
+}
+
+.form-items {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 56px;
+    gap: 10px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.item-size {
+    gap: 8px;
+}
+
+.textbox {
+    width: 90%;
+    padding: 22px 16px 8px;
+    background: rgba(0,0,0,0.58);
+    border: 2px solid #505050;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 6px 16px;
+    width: 100%;
+}
+
+.sign-btn{
+    background-color: #e50914;
+    border: 2px solid #e50914;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+}
+
+.code-sign-in{
+    background-color:#343537;
+    border: 2px solid #343537;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.remember-me {
+    gap: 10px;
+    display: flex;
+}
+
+.footer {
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+
+.f-text {
+    color: white;
+    padding: 10px;
+}
+
+.f-text a {
+    color: white;
+}
+
+.foot-main {
+    margin-top: 50px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-list-container li a {
+    color: white;
+
+}
+
+.main-list-container li {
+    padding: 10px;
+}
